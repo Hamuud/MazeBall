@@ -1,0 +1,1081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		625124B728A1A10C0096266F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124B628A1A10B0096266F /* SwiftUIView.swift */; };
+		625124B928A1A6640096266F /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 625124B828A1A6640096266F /* MainMenu.sks */; };
+		625124BD28A238380096266F /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124BC28A238380096266F /* MainMenu.swift */; };
+		625124BF28A2430E0096266F /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124BE28A2430E0096266F /* Level.swift */; };
+		625124C128A243310096266F /* Level.sks in Resources */ = {isa = PBXBuildFile; fileRef = 625124C028A243310096266F /* Level.sks */; };
+		625124C328A244240096266F /* level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124C228A244240096266F /* level2.swift */; };
+		625124C528A2443C0096266F /* level10.sks in Resources */ = {isa = PBXBuildFile; fileRef = 625124C428A2443C0096266F /* level10.sks */; };
+		625124C728A276790096266F /* level10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124C628A276790096266F /* level10.swift */; };
+		625124C928A276A80096266F /* level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 625124C828A276A80096266F /* level2.sks */; };
+		625124CB28A2842F0096266F /* level3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124CA28A2842F0096266F /* level3.swift */; };
+		625124CF28A284AC0096266F /* level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 625124CE28A284AC0096266F /* level3.sks */; };
+		625124D128A2AD7A0096266F /* EndGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124D028A2AD7A0096266F /* EndGame.swift */; };
+		625124D328A2AD930096266F /* EndGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 625124D228A2AD930096266F /* EndGame.sks */; };
+		625124D528A2B0E50096266F /* LevelComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124D428A2B0E50096266F /* LevelComplete.swift */; };
+		625124D728A2B0F60096266F /* LevelComplete.sks in Resources */ = {isa = PBXBuildFile; fileRef = 625124D628A2B0F60096266F /* LevelComplete.sks */; };
+		625124DD28A2EED90096266F /* level5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124DC28A2EED90096266F /* level5.swift */; };
+		625124DF28A2EF000096266F /* level5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 625124DE28A2EF000096266F /* level5.sks */; };
+		625124E128A2F8740096266F /* level6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625124E028A2F8740096266F /* level6.swift */; };
+		625124E328A2F8910096266F /* level6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 625124E228A2F8910096266F /* level6.sks */; };
+		62878ADA28A5095F0093CAED /* level11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62878AD928A5095F0093CAED /* level11.swift */; };
+		6298C8D728ABC657009DABCA /* level12.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8D628ABC657009DABCA /* level12.sks */; };
+		6298C8D928ABC672009DABCA /* level12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8D828ABC672009DABCA /* level12.swift */; };
+		6298C8DB28ACEF2B009DABCA /* EndGameLvl12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8DA28ACEF2B009DABCA /* EndGameLvl12.swift */; };
+		6298C8DD28ACEF60009DABCA /* EndGameLvl12.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8DC28ACEF60009DABCA /* EndGameLvl12.sks */; };
+		6298C8DF28AD1017009DABCA /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8DE28AD1017009DABCA /* Level2.sks */; };
+		6298C8E128AD102A009DABCA /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8E028AD102A009DABCA /* Level2.swift */; };
+		6298C8E328AD6CBF009DABCA /* level13.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8E228AD6CBF009DABCA /* level13.sks */; };
+		6298C8E528AD834C009DABCA /* level13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8E428AD834C009DABCA /* level13.swift */; };
+		6298C8E728AE2BD9009DABCA /* EndGameLvl13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8E628AE2BD9009DABCA /* EndGameLvl13.swift */; };
+		6298C8E928AE2BF9009DABCA /* EndGameLvl13.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8E828AE2BF9009DABCA /* EndGameLvl13.sks */; };
+		6298C8EB28AE2D78009DABCA /* level14.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8EA28AE2D78009DABCA /* level14.sks */; };
+		6298C8ED28AE37C3009DABCA /* level14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8EC28AE37C3009DABCA /* level14.swift */; };
+		6298C8EF28AE37E9009DABCA /* EngGameLvl14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8EE28AE37E9009DABCA /* EngGameLvl14.swift */; };
+		6298C8F128AE3804009DABCA /* EndGameLvl14.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8F028AE3804009DABCA /* EndGameLvl14.sks */; };
+		6298C8F328AE3C64009DABCA /* level15.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8F228AE3C64009DABCA /* level15.sks */; };
+		6298C8F528AE426D009DABCA /* level15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8F428AE426D009DABCA /* level15.swift */; };
+		6298C8F728AE4293009DABCA /* EndGameLvl15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8F628AE4293009DABCA /* EndGameLvl15.swift */; };
+		6298C8F928AE42AC009DABCA /* EndGameLvl15.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8F828AE42AC009DABCA /* EndGameLvl15.sks */; };
+		6298C8FB28AE6B2E009DABCA /* level16.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8FA28AE6B2E009DABCA /* level16.sks */; };
+		6298C8FD28AE6F80009DABCA /* EndGameLvl16.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C8FC28AE6F80009DABCA /* EndGameLvl16.sks */; };
+		6298C8FF28AE6FAB009DABCA /* EndGameLvl16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C8FE28AE6FAB009DABCA /* EndGameLvl16.swift */; };
+		6298C90128AE6FD9009DABCA /* level16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C90028AE6FD9009DABCA /* level16.swift */; };
+		6298C90328C12136009DABCA /* level17.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C90228C12136009DABCA /* level17.sks */; };
+		6298C90528C12DF4009DABCA /* level17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C90428C12DF4009DABCA /* level17.swift */; };
+		6298C90728C12FC5009DABCA /* EndGameLvl17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C90628C12FC5009DABCA /* EndGameLvl17.swift */; };
+		6298C90928C12FE4009DABCA /* EndGameLvl17.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C90828C12FE3009DABCA /* EndGameLvl17.sks */; };
+		6298C90B28C13182009DABCA /* level18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C90A28C13182009DABCA /* level18.swift */; };
+		6298C90D28C131D5009DABCA /* level18.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C90C28C131D5009DABCA /* level18.sks */; };
+		6298C90F28C13E48009DABCA /* EndGameLvl18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298C90E28C13E48009DABCA /* EndGameLvl18.swift */; };
+		6298C91128C13E8D009DABCA /* EndGameLvl18.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6298C91028C13E8D009DABCA /* EndGameLvl18.sks */; };
+		62A2BE6A28EC78110075F8D1 /* level2New.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62A2BE6928EC78110075F8D1 /* level2New.sks */; };
+		62A2BE6C28EC7C150075F8D1 /* level2New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A2BE6B28EC7C150075F8D1 /* level2New.swift */; };
+		62AE513828A3050100765873 /* level7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE513728A3050100765873 /* level7.swift */; };
+		62AE513A28A3051F00765873 /* level7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE513928A3051F00765873 /* level7.sks */; };
+		62AE513C28A3AB2300765873 /* level8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE513B28A3AB2300765873 /* level8.swift */; };
+		62AE513E28A3AB4300765873 /* level8.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE513D28A3AB4300765873 /* level8.sks */; };
+		62AE514028A3BE8E00765873 /* level9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE513F28A3BE8E00765873 /* level9.swift */; };
+		62AE514228A3BEAF00765873 /* level9.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE514128A3BEAF00765873 /* level9.sks */; };
+		62AE514528A4F7E300765873 /* EndGameLvl2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE514428A4F7E300765873 /* EndGameLvl2.swift */; };
+		62AE514728A4F81100765873 /* EndGameLvl2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE514628A4F81100765873 /* EndGameLvl2.sks */; };
+		62AE514928A4F90400765873 /* EndGameLvl3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE514828A4F90400765873 /* EndGameLvl3.swift */; };
+		62AE514B28A4F91200765873 /* EndGameLvl4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE514A28A4F91200765873 /* EndGameLvl4.swift */; };
+		62AE514D28A4F92C00765873 /* EndGameLvl5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE514C28A4F92C00765873 /* EndGameLvl5.swift */; };
+		62AE514F28A4F93B00765873 /* EndGameLvl6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE514E28A4F93B00765873 /* EndGameLvl6.swift */; };
+		62AE515128A4F94800765873 /* EndGameLvl7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE515028A4F94800765873 /* EndGameLvl7.swift */; };
+		62AE515328A4F95500765873 /* EndGameLvl8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE515228A4F95500765873 /* EndGameLvl8.swift */; };
+		62AE515528A4F96300765873 /* EndGameLvl9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE515428A4F96300765873 /* EndGameLvl9.swift */; };
+		62AE515728A4F97000765873 /* EndGameLvl10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE515628A4F97000765873 /* EndGameLvl10.swift */; };
+		62AE515928A4F9CD00765873 /* EndGameLvl3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE515828A4F9CD00765873 /* EndGameLvl3.sks */; };
+		62AE515B28A4F9D900765873 /* EndGameLvl4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE515A28A4F9D900765873 /* EndGameLvl4.sks */; };
+		62AE515D28A4F9E400765873 /* EndGameLvl5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE515C28A4F9E400765873 /* EndGameLvl5.sks */; };
+		62AE515F28A4F9EE00765873 /* EndGameLvl6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE515E28A4F9EE00765873 /* EndGameLvl6.sks */; };
+		62AE516128A4F9F800765873 /* EndGameLvl7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE516028A4F9F800765873 /* EndGameLvl7.sks */; };
+		62AE516328A4FA0400765873 /* EndGameLvl8.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE516228A4FA0400765873 /* EndGameLvl8.sks */; };
+		62AE516528A4FA0F00765873 /* EndGameLvl9.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE516428A4FA0F00765873 /* EndGameLvl9.sks */; };
+		62AE516728A4FA1D00765873 /* EndGameLvl10.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE516628A4FA1D00765873 /* EndGameLvl10.sks */; };
+		62AE516928A4FEFF00765873 /* level11.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62AE516828A4FEFF00765873 /* level11.sks */; };
+		62B310EC28D2102E00DBCD5B /* level22.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62B310EB28D2102D00DBCD5B /* level22.sks */; };
+		62B310EE28D21CC300DBCD5B /* level22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B310ED28D21CC300DBCD5B /* level22.swift */; };
+		62B36F7928F581E200792F0C /* EndGameLvl22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B36F7828F581E100792F0C /* EndGameLvl22.swift */; };
+		62B36F7B28F5825200792F0C /* EndGameLvl22.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62B36F7A28F5825200792F0C /* EndGameLvl22.sks */; };
+		62B36F7D28F5911900792F0C /* level23.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62B36F7C28F5911900792F0C /* level23.sks */; };
+		62B36F7F28F595C900792F0C /* level23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B36F7E28F595C900792F0C /* level23.swift */; };
+		62BC6CFA289E674C0061DD1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6CF9289E674C0061DD1A /* AppDelegate.swift */; };
+		62BC6CFC289E674C0061DD1A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62BC6CFB289E674C0061DD1A /* GameScene.sks */; };
+		62BC6CFE289E674C0061DD1A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62BC6CFD289E674C0061DD1A /* Actions.sks */; };
+		62BC6D00289E674C0061DD1A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6CFF289E674C0061DD1A /* GameScene.swift */; };
+		62BC6D02289E674C0061DD1A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6D01289E674C0061DD1A /* GameViewController.swift */; };
+		62BC6D05289E674C0061DD1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BC6D03289E674C0061DD1A /* Main.storyboard */; };
+		62BC6D07289E67510061DD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BC6D06289E67510061DD1A /* Assets.xcassets */; };
+		62BC6D0A289E67510061DD1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BC6D08289E67510061DD1A /* LaunchScreen.storyboard */; };
+		62BC6D14289E67520061DD1A /* PacManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6D13289E67520061DD1A /* PacManTests.swift */; };
+		62BC6D1E289E67520061DD1A /* PacManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6D1D289E67520061DD1A /* PacManUITests.swift */; };
+		62BC6D20289E67520061DD1A /* PacManUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6D1F289E67520061DD1A /* PacManUITestsLaunchTests.swift */; };
+		62DF667C29000D41002F2675 /* EndGameLvl23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF667B29000D41002F2675 /* EndGameLvl23.swift */; };
+		62DF667E29000D66002F2675 /* EndGameLvl23.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DF667D29000D66002F2675 /* EndGameLvl23.sks */; };
+		62DF66802900120C002F2675 /* level24.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DF667F2900120C002F2675 /* level24.sks */; };
+		62DF6682290019A7002F2675 /* level24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF6681290019A7002F2675 /* level24.swift */; };
+		62DF668429003095002F2675 /* EndGameLvl24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF668329003095002F2675 /* EndGameLvl24.swift */; };
+		62DF6686290030B8002F2675 /* EndGameLvl24.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DF6685290030B8002F2675 /* EndGameLvl24.sks */; };
+		62DF668829003573002F2675 /* level25.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DF668729003573002F2675 /* level25.sks */; };
+		62DF668A290035FD002F2675 /* level25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF6689290035FD002F2675 /* level25.swift */; };
+		62DF668C2901541D002F2675 /* level26.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DF668B2901541D002F2675 /* level26.sks */; };
+		62DF668E290167AD002F2675 /* level26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF668D290167AD002F2675 /* level26.swift */; };
+		62DF6690290168E5002F2675 /* EndGameLvl26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF668F290168E5002F2675 /* EndGameLvl26.swift */; };
+		62DF669229016904002F2675 /* EndGameLvl25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF669129016904002F2675 /* EndGameLvl25.swift */; };
+		62DF66942901691F002F2675 /* EndGameLvl25.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DF66932901691F002F2675 /* EndGameLvl25.sks */; };
+		62DF66962901692C002F2675 /* EndGameLvl26.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DF66952901692C002F2675 /* EndGameLvl26.sks */; };
+		62DFF6D728CF5EFD00D1B8F7 /* level19.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DFF6D628CF5EFD00D1B8F7 /* level19.sks */; };
+		62DFF6D928CF5F0A00D1B8F7 /* level20.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DFF6D828CF5F0A00D1B8F7 /* level20.sks */; };
+		62DFF6DB28CF5F1700D1B8F7 /* level21.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DFF6DA28CF5F1700D1B8F7 /* level21.sks */; };
+		62DFF6DD28CF653D00D1B8F7 /* EndGameLvl19.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DFF6DC28CF653D00D1B8F7 /* EndGameLvl19.sks */; };
+		62DFF6DF28CF655A00D1B8F7 /* EndGameLvl19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFF6DE28CF655A00D1B8F7 /* EndGameLvl19.swift */; };
+		62DFF6E128CF65FA00D1B8F7 /* level19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFF6E028CF65FA00D1B8F7 /* level19.swift */; };
+		62DFF6E328CF660B00D1B8F7 /* level20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFF6E228CF660B00D1B8F7 /* level20.swift */; };
+		62DFF6E528CF661700D1B8F7 /* level21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFF6E428CF661700D1B8F7 /* level21.swift */; };
+		62DFF6E728CF933000D1B8F7 /* EndGameLvl20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFF6E628CF932F00D1B8F7 /* EndGameLvl20.swift */; };
+		62DFF6E928CF935400D1B8F7 /* EndGameLvl20.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DFF6E828CF935400D1B8F7 /* EndGameLvl20.sks */; };
+		62DFF6EB28CFA43800D1B8F7 /* EndGameLvl21.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62DFF6EA28CFA43800D1B8F7 /* EndGameLvl21.sks */; };
+		62DFF6ED28CFA49300D1B8F7 /* EndGameLvl21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DFF6EC28CFA49300D1B8F7 /* EndGameLvl21.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62BC6D10289E67520061DD1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62BC6CEE289E674C0061DD1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BC6CF5289E674C0061DD1A;
+			remoteInfo = PacMan;
+		};
+		62BC6D1A289E67520061DD1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62BC6CEE289E674C0061DD1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BC6CF5289E674C0061DD1A;
+			remoteInfo = PacMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		625124B628A1A10B0096266F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		625124B828A1A6640096266F /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		625124BC28A238380096266F /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		625124BE28A2430E0096266F /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		625124C028A243310096266F /* Level.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level.sks; sourceTree = "<group>"; };
+		625124C228A244240096266F /* level2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level2.swift; sourceTree = "<group>"; };
+		625124C428A2443C0096266F /* level10.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level10.sks; sourceTree = "<group>"; };
+		625124C628A276790096266F /* level10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level10.swift; sourceTree = "<group>"; };
+		625124C828A276A80096266F /* level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level2.sks; sourceTree = "<group>"; };
+		625124CA28A2842F0096266F /* level3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3.swift; sourceTree = "<group>"; };
+		625124CE28A284AC0096266F /* level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level3.sks; sourceTree = "<group>"; };
+		625124D028A2AD7A0096266F /* EndGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGame.swift; sourceTree = "<group>"; };
+		625124D228A2AD930096266F /* EndGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGame.sks; sourceTree = "<group>"; };
+		625124D428A2B0E50096266F /* LevelComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelComplete.swift; sourceTree = "<group>"; };
+		625124D628A2B0F60096266F /* LevelComplete.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LevelComplete.sks; sourceTree = "<group>"; };
+		625124DC28A2EED90096266F /* level5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level5.swift; sourceTree = "<group>"; };
+		625124DE28A2EF000096266F /* level5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level5.sks; sourceTree = "<group>"; };
+		625124E028A2F8740096266F /* level6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level6.swift; sourceTree = "<group>"; };
+		625124E228A2F8910096266F /* level6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level6.sks; sourceTree = "<group>"; };
+		62878AD928A5095F0093CAED /* level11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level11.swift; sourceTree = "<group>"; };
+		6298C8D428A9235B009DABCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6298C8D528A9235C009DABCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6298C8D628ABC657009DABCA /* level12.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level12.sks; sourceTree = "<group>"; };
+		6298C8D828ABC672009DABCA /* level12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level12.swift; sourceTree = "<group>"; };
+		6298C8DA28ACEF2B009DABCA /* EndGameLvl12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl12.swift; sourceTree = "<group>"; };
+		6298C8DC28ACEF60009DABCA /* EndGameLvl12.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl12.sks; sourceTree = "<group>"; };
+		6298C8DE28AD1017009DABCA /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
+		6298C8E028AD102A009DABCA /* Level2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2.swift; sourceTree = "<group>"; };
+		6298C8E228AD6CBF009DABCA /* level13.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level13.sks; sourceTree = "<group>"; };
+		6298C8E428AD834C009DABCA /* level13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level13.swift; sourceTree = "<group>"; };
+		6298C8E628AE2BD9009DABCA /* EndGameLvl13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl13.swift; sourceTree = "<group>"; };
+		6298C8E828AE2BF9009DABCA /* EndGameLvl13.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl13.sks; sourceTree = "<group>"; };
+		6298C8EA28AE2D78009DABCA /* level14.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level14.sks; sourceTree = "<group>"; };
+		6298C8EC28AE37C3009DABCA /* level14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level14.swift; sourceTree = "<group>"; };
+		6298C8EE28AE37E9009DABCA /* EngGameLvl14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngGameLvl14.swift; sourceTree = "<group>"; };
+		6298C8F028AE3804009DABCA /* EndGameLvl14.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl14.sks; sourceTree = "<group>"; };
+		6298C8F228AE3C64009DABCA /* level15.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level15.sks; sourceTree = "<group>"; };
+		6298C8F428AE426D009DABCA /* level15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level15.swift; sourceTree = "<group>"; };
+		6298C8F628AE4293009DABCA /* EndGameLvl15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl15.swift; sourceTree = "<group>"; };
+		6298C8F828AE42AC009DABCA /* EndGameLvl15.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl15.sks; sourceTree = "<group>"; };
+		6298C8FA28AE6B2E009DABCA /* level16.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level16.sks; sourceTree = "<group>"; };
+		6298C8FC28AE6F80009DABCA /* EndGameLvl16.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl16.sks; sourceTree = "<group>"; };
+		6298C8FE28AE6FAB009DABCA /* EndGameLvl16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl16.swift; sourceTree = "<group>"; };
+		6298C90028AE6FD9009DABCA /* level16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level16.swift; sourceTree = "<group>"; };
+		6298C90228C12136009DABCA /* level17.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level17.sks; sourceTree = "<group>"; };
+		6298C90428C12DF4009DABCA /* level17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level17.swift; sourceTree = "<group>"; };
+		6298C90628C12FC5009DABCA /* EndGameLvl17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl17.swift; sourceTree = "<group>"; };
+		6298C90828C12FE3009DABCA /* EndGameLvl17.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl17.sks; sourceTree = "<group>"; };
+		6298C90A28C13182009DABCA /* level18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level18.swift; sourceTree = "<group>"; };
+		6298C90C28C131D5009DABCA /* level18.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level18.sks; sourceTree = "<group>"; };
+		6298C90E28C13E48009DABCA /* EndGameLvl18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl18.swift; sourceTree = "<group>"; };
+		6298C91028C13E8D009DABCA /* EndGameLvl18.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl18.sks; sourceTree = "<group>"; };
+		62A2BE6928EC78110075F8D1 /* level2New.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level2New.sks; sourceTree = "<group>"; };
+		62A2BE6B28EC7C150075F8D1 /* level2New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level2New.swift; sourceTree = "<group>"; };
+		62AE513728A3050100765873 /* level7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level7.swift; sourceTree = "<group>"; };
+		62AE513928A3051F00765873 /* level7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level7.sks; sourceTree = "<group>"; };
+		62AE513B28A3AB2300765873 /* level8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level8.swift; sourceTree = "<group>"; };
+		62AE513D28A3AB4300765873 /* level8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level8.sks; sourceTree = "<group>"; };
+		62AE513F28A3BE8E00765873 /* level9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level9.swift; sourceTree = "<group>"; };
+		62AE514128A3BEAF00765873 /* level9.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level9.sks; sourceTree = "<group>"; };
+		62AE514428A4F7E300765873 /* EndGameLvl2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl2.swift; sourceTree = "<group>"; };
+		62AE514628A4F81100765873 /* EndGameLvl2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl2.sks; sourceTree = "<group>"; };
+		62AE514828A4F90400765873 /* EndGameLvl3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl3.swift; sourceTree = "<group>"; };
+		62AE514A28A4F91200765873 /* EndGameLvl4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl4.swift; sourceTree = "<group>"; };
+		62AE514C28A4F92C00765873 /* EndGameLvl5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl5.swift; sourceTree = "<group>"; };
+		62AE514E28A4F93B00765873 /* EndGameLvl6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl6.swift; sourceTree = "<group>"; };
+		62AE515028A4F94800765873 /* EndGameLvl7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl7.swift; sourceTree = "<group>"; };
+		62AE515228A4F95500765873 /* EndGameLvl8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl8.swift; sourceTree = "<group>"; };
+		62AE515428A4F96300765873 /* EndGameLvl9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl9.swift; sourceTree = "<group>"; };
+		62AE515628A4F97000765873 /* EndGameLvl10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl10.swift; sourceTree = "<group>"; };
+		62AE515828A4F9CD00765873 /* EndGameLvl3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl3.sks; sourceTree = "<group>"; };
+		62AE515A28A4F9D900765873 /* EndGameLvl4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl4.sks; sourceTree = "<group>"; };
+		62AE515C28A4F9E400765873 /* EndGameLvl5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl5.sks; sourceTree = "<group>"; };
+		62AE515E28A4F9EE00765873 /* EndGameLvl6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl6.sks; sourceTree = "<group>"; };
+		62AE516028A4F9F800765873 /* EndGameLvl7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl7.sks; sourceTree = "<group>"; };
+		62AE516228A4FA0400765873 /* EndGameLvl8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl8.sks; sourceTree = "<group>"; };
+		62AE516428A4FA0F00765873 /* EndGameLvl9.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl9.sks; sourceTree = "<group>"; };
+		62AE516628A4FA1D00765873 /* EndGameLvl10.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl10.sks; sourceTree = "<group>"; };
+		62AE516828A4FEFF00765873 /* level11.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level11.sks; sourceTree = "<group>"; };
+		62B310EB28D2102D00DBCD5B /* level22.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level22.sks; sourceTree = "<group>"; };
+		62B310ED28D21CC300DBCD5B /* level22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level22.swift; sourceTree = "<group>"; };
+		62B36F7828F581E100792F0C /* EndGameLvl22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl22.swift; sourceTree = "<group>"; };
+		62B36F7A28F5825200792F0C /* EndGameLvl22.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl22.sks; sourceTree = "<group>"; };
+		62B36F7C28F5911900792F0C /* level23.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level23.sks; sourceTree = "<group>"; };
+		62B36F7E28F595C900792F0C /* level23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level23.swift; sourceTree = "<group>"; };
+		62BC6CF6289E674C0061DD1A /* Maze Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maze Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BC6CF9289E674C0061DD1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62BC6CFB289E674C0061DD1A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		62BC6CFD289E674C0061DD1A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		62BC6CFF289E674C0061DD1A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		62BC6D01289E674C0061DD1A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		62BC6D06289E67510061DD1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62BC6D0F289E67520061DD1A /* Maze BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maze BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BC6D13289E67520061DD1A /* PacManTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacManTests.swift; sourceTree = "<group>"; };
+		62BC6D19289E67520061DD1A /* Maze BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maze BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BC6D1D289E67520061DD1A /* PacManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacManUITests.swift; sourceTree = "<group>"; };
+		62BC6D1F289E67520061DD1A /* PacManUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacManUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		62DF667B29000D41002F2675 /* EndGameLvl23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl23.swift; sourceTree = "<group>"; };
+		62DF667D29000D66002F2675 /* EndGameLvl23.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl23.sks; sourceTree = "<group>"; };
+		62DF667F2900120C002F2675 /* level24.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level24.sks; sourceTree = "<group>"; };
+		62DF6681290019A7002F2675 /* level24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level24.swift; sourceTree = "<group>"; };
+		62DF668329003095002F2675 /* EndGameLvl24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl24.swift; sourceTree = "<group>"; };
+		62DF6685290030B8002F2675 /* EndGameLvl24.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl24.sks; sourceTree = "<group>"; };
+		62DF668729003573002F2675 /* level25.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level25.sks; sourceTree = "<group>"; };
+		62DF6689290035FD002F2675 /* level25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level25.swift; sourceTree = "<group>"; };
+		62DF668B2901541D002F2675 /* level26.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level26.sks; sourceTree = "<group>"; };
+		62DF668D290167AD002F2675 /* level26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level26.swift; sourceTree = "<group>"; };
+		62DF668F290168E5002F2675 /* EndGameLvl26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl26.swift; sourceTree = "<group>"; };
+		62DF669129016904002F2675 /* EndGameLvl25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl25.swift; sourceTree = "<group>"; };
+		62DF66932901691F002F2675 /* EndGameLvl25.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl25.sks; sourceTree = "<group>"; };
+		62DF66952901692C002F2675 /* EndGameLvl26.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl26.sks; sourceTree = "<group>"; };
+		62DFF6D628CF5EFD00D1B8F7 /* level19.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level19.sks; sourceTree = "<group>"; };
+		62DFF6D828CF5F0A00D1B8F7 /* level20.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level20.sks; sourceTree = "<group>"; };
+		62DFF6DA28CF5F1700D1B8F7 /* level21.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = level21.sks; sourceTree = "<group>"; };
+		62DFF6DC28CF653D00D1B8F7 /* EndGameLvl19.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl19.sks; sourceTree = "<group>"; };
+		62DFF6DE28CF655A00D1B8F7 /* EndGameLvl19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl19.swift; sourceTree = "<group>"; };
+		62DFF6E028CF65FA00D1B8F7 /* level19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level19.swift; sourceTree = "<group>"; };
+		62DFF6E228CF660B00D1B8F7 /* level20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level20.swift; sourceTree = "<group>"; };
+		62DFF6E428CF661700D1B8F7 /* level21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level21.swift; sourceTree = "<group>"; };
+		62DFF6E628CF932F00D1B8F7 /* EndGameLvl20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl20.swift; sourceTree = "<group>"; };
+		62DFF6E828CF935400D1B8F7 /* EndGameLvl20.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl20.sks; sourceTree = "<group>"; };
+		62DFF6EA28CFA43800D1B8F7 /* EndGameLvl21.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameLvl21.sks; sourceTree = "<group>"; };
+		62DFF6EC28CFA49300D1B8F7 /* EndGameLvl21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameLvl21.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62BC6CF3289E674C0061DD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BC6D0C289E67520061DD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BC6D16289E67520061DD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		625124CC28A284380096266F /* level's code */ = {
+			isa = PBXGroup;
+			children = (
+				62BC6CFF289E674C0061DD1A /* GameScene.swift */,
+				625124C228A244240096266F /* level2.swift */,
+				62A2BE6B28EC7C150075F8D1 /* level2New.swift */,
+				625124CA28A2842F0096266F /* level3.swift */,
+				62878AD928A5095F0093CAED /* level11.swift */,
+				625124DC28A2EED90096266F /* level5.swift */,
+				625124E028A2F8740096266F /* level6.swift */,
+				62AE513728A3050100765873 /* level7.swift */,
+				62AE513B28A3AB2300765873 /* level8.swift */,
+				62AE513F28A3BE8E00765873 /* level9.swift */,
+				625124C628A276790096266F /* level10.swift */,
+				6298C8D828ABC672009DABCA /* level12.swift */,
+				6298C8E428AD834C009DABCA /* level13.swift */,
+				6298C8EC28AE37C3009DABCA /* level14.swift */,
+				6298C8F428AE426D009DABCA /* level15.swift */,
+				6298C90028AE6FD9009DABCA /* level16.swift */,
+				6298C90428C12DF4009DABCA /* level17.swift */,
+				6298C90A28C13182009DABCA /* level18.swift */,
+				62DFF6E028CF65FA00D1B8F7 /* level19.swift */,
+				62DFF6E228CF660B00D1B8F7 /* level20.swift */,
+				62DFF6E428CF661700D1B8F7 /* level21.swift */,
+				62B310ED28D21CC300DBCD5B /* level22.swift */,
+				62B36F7E28F595C900792F0C /* level23.swift */,
+				62DF6681290019A7002F2675 /* level24.swift */,
+				62DF6689290035FD002F2675 /* level25.swift */,
+				62DF668D290167AD002F2675 /* level26.swift */,
+			);
+			path = "level's code";
+			sourceTree = "<group>";
+		};
+		625124CD28A2846F0096266F /* level's UI */ = {
+			isa = PBXGroup;
+			children = (
+				62BC6CFB289E674C0061DD1A /* GameScene.sks */,
+				625124C828A276A80096266F /* level2.sks */,
+				62A2BE6928EC78110075F8D1 /* level2New.sks */,
+				625124CE28A284AC0096266F /* level3.sks */,
+				625124DE28A2EF000096266F /* level5.sks */,
+				625124E228A2F8910096266F /* level6.sks */,
+				62AE513928A3051F00765873 /* level7.sks */,
+				62AE513D28A3AB4300765873 /* level8.sks */,
+				62AE514128A3BEAF00765873 /* level9.sks */,
+				625124C428A2443C0096266F /* level10.sks */,
+				62AE516828A4FEFF00765873 /* level11.sks */,
+				6298C8D628ABC657009DABCA /* level12.sks */,
+				6298C8E228AD6CBF009DABCA /* level13.sks */,
+				6298C8EA28AE2D78009DABCA /* level14.sks */,
+				6298C8F228AE3C64009DABCA /* level15.sks */,
+				6298C8FA28AE6B2E009DABCA /* level16.sks */,
+				6298C90228C12136009DABCA /* level17.sks */,
+				6298C90C28C131D5009DABCA /* level18.sks */,
+				62DFF6D628CF5EFD00D1B8F7 /* level19.sks */,
+				62DFF6D828CF5F0A00D1B8F7 /* level20.sks */,
+				62DFF6DA28CF5F1700D1B8F7 /* level21.sks */,
+				62B310EB28D2102D00DBCD5B /* level22.sks */,
+				62B36F7C28F5911900792F0C /* level23.sks */,
+				62DF667F2900120C002F2675 /* level24.sks */,
+				62DF668729003573002F2675 /* level25.sks */,
+				62DF668B2901541D002F2675 /* level26.sks */,
+			);
+			path = "level's UI";
+			sourceTree = "<group>";
+		};
+		62AE514328A4F7B600765873 /* EndGame */ = {
+			isa = PBXGroup;
+			children = (
+				625124D028A2AD7A0096266F /* EndGame.swift */,
+				62AE514428A4F7E300765873 /* EndGameLvl2.swift */,
+				62AE514828A4F90400765873 /* EndGameLvl3.swift */,
+				62AE514A28A4F91200765873 /* EndGameLvl4.swift */,
+				62AE514C28A4F92C00765873 /* EndGameLvl5.swift */,
+				62AE514E28A4F93B00765873 /* EndGameLvl6.swift */,
+				62AE515028A4F94800765873 /* EndGameLvl7.swift */,
+				62AE515228A4F95500765873 /* EndGameLvl8.swift */,
+				62AE515428A4F96300765873 /* EndGameLvl9.swift */,
+				62AE515628A4F97000765873 /* EndGameLvl10.swift */,
+				6298C8DA28ACEF2B009DABCA /* EndGameLvl12.swift */,
+				6298C8E628AE2BD9009DABCA /* EndGameLvl13.swift */,
+				6298C8EE28AE37E9009DABCA /* EngGameLvl14.swift */,
+				6298C8F628AE4293009DABCA /* EndGameLvl15.swift */,
+				6298C8FE28AE6FAB009DABCA /* EndGameLvl16.swift */,
+				6298C90628C12FC5009DABCA /* EndGameLvl17.swift */,
+				6298C90E28C13E48009DABCA /* EndGameLvl18.swift */,
+				62DFF6DE28CF655A00D1B8F7 /* EndGameLvl19.swift */,
+				62DFF6E628CF932F00D1B8F7 /* EndGameLvl20.swift */,
+				62DFF6EC28CFA49300D1B8F7 /* EndGameLvl21.swift */,
+				62B36F7828F581E100792F0C /* EndGameLvl22.swift */,
+				62DF667B29000D41002F2675 /* EndGameLvl23.swift */,
+				62DF668329003095002F2675 /* EndGameLvl24.swift */,
+				62DF669129016904002F2675 /* EndGameLvl25.swift */,
+				62DF668F290168E5002F2675 /* EndGameLvl26.swift */,
+				625124D228A2AD930096266F /* EndGame.sks */,
+				62AE514628A4F81100765873 /* EndGameLvl2.sks */,
+				62AE515828A4F9CD00765873 /* EndGameLvl3.sks */,
+				62AE515A28A4F9D900765873 /* EndGameLvl4.sks */,
+				62AE515C28A4F9E400765873 /* EndGameLvl5.sks */,
+				62AE515E28A4F9EE00765873 /* EndGameLvl6.sks */,
+				62AE516028A4F9F800765873 /* EndGameLvl7.sks */,
+				62AE516228A4FA0400765873 /* EndGameLvl8.sks */,
+				62AE516428A4FA0F00765873 /* EndGameLvl9.sks */,
+				62AE516628A4FA1D00765873 /* EndGameLvl10.sks */,
+				6298C8DC28ACEF60009DABCA /* EndGameLvl12.sks */,
+				6298C8E828AE2BF9009DABCA /* EndGameLvl13.sks */,
+				6298C8F028AE3804009DABCA /* EndGameLvl14.sks */,
+				6298C8F828AE42AC009DABCA /* EndGameLvl15.sks */,
+				6298C8FC28AE6F80009DABCA /* EndGameLvl16.sks */,
+				6298C90828C12FE3009DABCA /* EndGameLvl17.sks */,
+				6298C91028C13E8D009DABCA /* EndGameLvl18.sks */,
+				62DFF6DC28CF653D00D1B8F7 /* EndGameLvl19.sks */,
+				62DFF6E828CF935400D1B8F7 /* EndGameLvl20.sks */,
+				62DFF6EA28CFA43800D1B8F7 /* EndGameLvl21.sks */,
+				62B36F7A28F5825200792F0C /* EndGameLvl22.sks */,
+				62DF667D29000D66002F2675 /* EndGameLvl23.sks */,
+				62DF6685290030B8002F2675 /* EndGameLvl24.sks */,
+				62DF66932901691F002F2675 /* EndGameLvl25.sks */,
+				62DF66952901692C002F2675 /* EndGameLvl26.sks */,
+			);
+			path = EndGame;
+			sourceTree = "<group>";
+		};
+		62BC6CED289E674C0061DD1A = {
+			isa = PBXGroup;
+			children = (
+				62BC6CF8289E674C0061DD1A /* Maze Ball */,
+				62BC6D12289E67520061DD1A /* PacManTests */,
+				62BC6D1C289E67520061DD1A /* PacManUITests */,
+				62BC6CF7289E674C0061DD1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62BC6CF7289E674C0061DD1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62BC6CF6289E674C0061DD1A /* Maze Ball.app */,
+				62BC6D0F289E67520061DD1A /* Maze BallTests.xctest */,
+				62BC6D19289E67520061DD1A /* Maze BallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62BC6CF8289E674C0061DD1A /* Maze Ball */ = {
+			isa = PBXGroup;
+			children = (
+				62AE514328A4F7B600765873 /* EndGame */,
+				625124CD28A2846F0096266F /* level's UI */,
+				625124CC28A284380096266F /* level's code */,
+				62BC6CF9289E674C0061DD1A /* AppDelegate.swift */,
+				62BC6CFD289E674C0061DD1A /* Actions.sks */,
+				62BC6D01289E674C0061DD1A /* GameViewController.swift */,
+				62BC6D03289E674C0061DD1A /* Main.storyboard */,
+				62BC6D06289E67510061DD1A /* Assets.xcassets */,
+				62BC6D08289E67510061DD1A /* LaunchScreen.storyboard */,
+				625124B628A1A10B0096266F /* SwiftUIView.swift */,
+				625124B828A1A6640096266F /* MainMenu.sks */,
+				625124BC28A238380096266F /* MainMenu.swift */,
+				625124BE28A2430E0096266F /* Level.swift */,
+				625124C028A243310096266F /* Level.sks */,
+				625124D428A2B0E50096266F /* LevelComplete.swift */,
+				625124D628A2B0F60096266F /* LevelComplete.sks */,
+				6298C8DE28AD1017009DABCA /* Level2.sks */,
+				6298C8E028AD102A009DABCA /* Level2.swift */,
+			);
+			path = "Maze Ball";
+			sourceTree = "<group>";
+		};
+		62BC6D12289E67520061DD1A /* PacManTests */ = {
+			isa = PBXGroup;
+			children = (
+				62BC6D13289E67520061DD1A /* PacManTests.swift */,
+			);
+			path = PacManTests;
+			sourceTree = "<group>";
+		};
+		62BC6D1C289E67520061DD1A /* PacManUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62BC6D1D289E67520061DD1A /* PacManUITests.swift */,
+				62BC6D1F289E67520061DD1A /* PacManUITestsLaunchTests.swift */,
+			);
+			path = PacManUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62BC6CF5289E674C0061DD1A /* Maze Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BC6D23289E67520061DD1A /* Build configuration list for PBXNativeTarget "Maze Ball" */;
+			buildPhases = (
+				62BC6CF2289E674C0061DD1A /* Sources */,
+				62BC6CF3289E674C0061DD1A /* Frameworks */,
+				62BC6CF4289E674C0061DD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maze Ball";
+			productName = PacMan;
+			productReference = 62BC6CF6289E674C0061DD1A /* Maze Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62BC6D0E289E67520061DD1A /* Maze BallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BC6D26289E67520061DD1A /* Build configuration list for PBXNativeTarget "Maze BallTests" */;
+			buildPhases = (
+				62BC6D0B289E67520061DD1A /* Sources */,
+				62BC6D0C289E67520061DD1A /* Frameworks */,
+				62BC6D0D289E67520061DD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BC6D11289E67520061DD1A /* PBXTargetDependency */,
+			);
+			name = "Maze BallTests";
+			productName = PacManTests;
+			productReference = 62BC6D0F289E67520061DD1A /* Maze BallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62BC6D18289E67520061DD1A /* Maze BallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BC6D29289E67520061DD1A /* Build configuration list for PBXNativeTarget "Maze BallUITests" */;
+			buildPhases = (
+				62BC6D15289E67520061DD1A /* Sources */,
+				62BC6D16289E67520061DD1A /* Frameworks */,
+				62BC6D17289E67520061DD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BC6D1B289E67520061DD1A /* PBXTargetDependency */,
+			);
+			name = "Maze BallUITests";
+			productName = PacManUITests;
+			productReference = 62BC6D19289E67520061DD1A /* Maze BallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62BC6CEE289E674C0061DD1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					62BC6CF5289E674C0061DD1A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					62BC6D0E289E67520061DD1A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 62BC6CF5289E674C0061DD1A;
+					};
+					62BC6D18289E67520061DD1A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 62BC6CF5289E674C0061DD1A;
+					};
+				};
+			};
+			buildConfigurationList = 62BC6CF1289E674C0061DD1A /* Build configuration list for PBXProject "Maze Ball" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62BC6CED289E674C0061DD1A;
+			productRefGroup = 62BC6CF7289E674C0061DD1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62BC6CF5289E674C0061DD1A /* Maze Ball */,
+				62BC6D0E289E67520061DD1A /* Maze BallTests */,
+				62BC6D18289E67520061DD1A /* Maze BallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62BC6CF4289E674C0061DD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DFF6E928CF935400D1B8F7 /* EndGameLvl20.sks in Resources */,
+				62B36F7B28F5825200792F0C /* EndGameLvl22.sks in Resources */,
+				62DFF6EB28CFA43800D1B8F7 /* EndGameLvl21.sks in Resources */,
+				62B36F7D28F5911900792F0C /* level23.sks in Resources */,
+				62DF66962901692C002F2675 /* EndGameLvl26.sks in Resources */,
+				62AE515F28A4F9EE00765873 /* EndGameLvl6.sks in Resources */,
+				6298C8F128AE3804009DABCA /* EndGameLvl14.sks in Resources */,
+				625124CF28A284AC0096266F /* level3.sks in Resources */,
+				62AE516328A4FA0400765873 /* EndGameLvl8.sks in Resources */,
+				6298C8F928AE42AC009DABCA /* EndGameLvl15.sks in Resources */,
+				6298C8F328AE3C64009DABCA /* level15.sks in Resources */,
+				62BC6D05289E674C0061DD1A /* Main.storyboard in Resources */,
+				6298C8FD28AE6F80009DABCA /* EndGameLvl16.sks in Resources */,
+				62AE516728A4FA1D00765873 /* EndGameLvl10.sks in Resources */,
+				6298C8E328AD6CBF009DABCA /* level13.sks in Resources */,
+				62DF6686290030B8002F2675 /* EndGameLvl24.sks in Resources */,
+				62AE516128A4F9F800765873 /* EndGameLvl7.sks in Resources */,
+				62AE514728A4F81100765873 /* EndGameLvl2.sks in Resources */,
+				62AE515D28A4F9E400765873 /* EndGameLvl5.sks in Resources */,
+				6298C8D728ABC657009DABCA /* level12.sks in Resources */,
+				62DF66942901691F002F2675 /* EndGameLvl25.sks in Resources */,
+				6298C90928C12FE4009DABCA /* EndGameLvl17.sks in Resources */,
+				62B310EC28D2102E00DBCD5B /* level22.sks in Resources */,
+				6298C8FB28AE6B2E009DABCA /* level16.sks in Resources */,
+				62DF668C2901541D002F2675 /* level26.sks in Resources */,
+				62DFF6DB28CF5F1700D1B8F7 /* level21.sks in Resources */,
+				62DF667E29000D66002F2675 /* EndGameLvl23.sks in Resources */,
+				62DFF6D928CF5F0A00D1B8F7 /* level20.sks in Resources */,
+				62AE516528A4FA0F00765873 /* EndGameLvl9.sks in Resources */,
+				6298C90D28C131D5009DABCA /* level18.sks in Resources */,
+				62AE515B28A4F9D900765873 /* EndGameLvl4.sks in Resources */,
+				6298C91128C13E8D009DABCA /* EndGameLvl18.sks in Resources */,
+				625124B928A1A6640096266F /* MainMenu.sks in Resources */,
+				62BC6CFC289E674C0061DD1A /* GameScene.sks in Resources */,
+				62DFF6D728CF5EFD00D1B8F7 /* level19.sks in Resources */,
+				625124E328A2F8910096266F /* level6.sks in Resources */,
+				62DF668829003573002F2675 /* level25.sks in Resources */,
+				625124C528A2443C0096266F /* level10.sks in Resources */,
+				625124D728A2B0F60096266F /* LevelComplete.sks in Resources */,
+				62DF66802900120C002F2675 /* level24.sks in Resources */,
+				62AE514228A3BEAF00765873 /* level9.sks in Resources */,
+				62AE513A28A3051F00765873 /* level7.sks in Resources */,
+				62DFF6DD28CF653D00D1B8F7 /* EndGameLvl19.sks in Resources */,
+				6298C8DD28ACEF60009DABCA /* EndGameLvl12.sks in Resources */,
+				6298C8DF28AD1017009DABCA /* Level2.sks in Resources */,
+				625124C128A243310096266F /* Level.sks in Resources */,
+				6298C8EB28AE2D78009DABCA /* level14.sks in Resources */,
+				6298C90328C12136009DABCA /* level17.sks in Resources */,
+				62AE515928A4F9CD00765873 /* EndGameLvl3.sks in Resources */,
+				62AE516928A4FEFF00765873 /* level11.sks in Resources */,
+				62BC6D07289E67510061DD1A /* Assets.xcassets in Resources */,
+				62BC6D0A289E67510061DD1A /* LaunchScreen.storyboard in Resources */,
+				625124C928A276A80096266F /* level2.sks in Resources */,
+				62AE513E28A3AB4300765873 /* level8.sks in Resources */,
+				625124D328A2AD930096266F /* EndGame.sks in Resources */,
+				62A2BE6A28EC78110075F8D1 /* level2New.sks in Resources */,
+				625124DF28A2EF000096266F /* level5.sks in Resources */,
+				6298C8E928AE2BF9009DABCA /* EndGameLvl13.sks in Resources */,
+				62BC6CFE289E674C0061DD1A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BC6D0D289E67520061DD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BC6D17289E67520061DD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62BC6CF2289E674C0061DD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DFF6E728CF933000D1B8F7 /* EndGameLvl20.swift in Sources */,
+				62878ADA28A5095F0093CAED /* level11.swift in Sources */,
+				625124BF28A2430E0096266F /* Level.swift in Sources */,
+				6298C8F728AE4293009DABCA /* EndGameLvl15.swift in Sources */,
+				6298C8FF28AE6FAB009DABCA /* EndGameLvl16.swift in Sources */,
+				6298C90128AE6FD9009DABCA /* level16.swift in Sources */,
+				62AE513828A3050100765873 /* level7.swift in Sources */,
+				625124C728A276790096266F /* level10.swift in Sources */,
+				62AE515728A4F97000765873 /* EndGameLvl10.swift in Sources */,
+				62A2BE6C28EC7C150075F8D1 /* level2New.swift in Sources */,
+				6298C8ED28AE37C3009DABCA /* level14.swift in Sources */,
+				62AE515528A4F96300765873 /* EndGameLvl9.swift in Sources */,
+				62AE514B28A4F91200765873 /* EndGameLvl4.swift in Sources */,
+				62AE514928A4F90400765873 /* EndGameLvl3.swift in Sources */,
+				62DF668A290035FD002F2675 /* level25.swift in Sources */,
+				6298C8DB28ACEF2B009DABCA /* EndGameLvl12.swift in Sources */,
+				625124BD28A238380096266F /* MainMenu.swift in Sources */,
+				62BC6D00289E674C0061DD1A /* GameScene.swift in Sources */,
+				62DF667C29000D41002F2675 /* EndGameLvl23.swift in Sources */,
+				62DF6690290168E5002F2675 /* EndGameLvl26.swift in Sources */,
+				62B36F7F28F595C900792F0C /* level23.swift in Sources */,
+				625124CB28A2842F0096266F /* level3.swift in Sources */,
+				6298C90F28C13E48009DABCA /* EndGameLvl18.swift in Sources */,
+				6298C8D928ABC672009DABCA /* level12.swift in Sources */,
+				62AE515128A4F94800765873 /* EndGameLvl7.swift in Sources */,
+				62DF668E290167AD002F2675 /* level26.swift in Sources */,
+				62B310EE28D21CC300DBCD5B /* level22.swift in Sources */,
+				6298C8EF28AE37E9009DABCA /* EngGameLvl14.swift in Sources */,
+				62DFF6DF28CF655A00D1B8F7 /* EndGameLvl19.swift in Sources */,
+				625124E128A2F8740096266F /* level6.swift in Sources */,
+				6298C8E128AD102A009DABCA /* Level2.swift in Sources */,
+				62DF668429003095002F2675 /* EndGameLvl24.swift in Sources */,
+				6298C8F528AE426D009DABCA /* level15.swift in Sources */,
+				6298C8E728AE2BD9009DABCA /* EndGameLvl13.swift in Sources */,
+				62AE513C28A3AB2300765873 /* level8.swift in Sources */,
+				62AE515328A4F95500765873 /* EndGameLvl8.swift in Sources */,
+				6298C90B28C13182009DABCA /* level18.swift in Sources */,
+				625124DD28A2EED90096266F /* level5.swift in Sources */,
+				62DFF6E528CF661700D1B8F7 /* level21.swift in Sources */,
+				6298C90728C12FC5009DABCA /* EndGameLvl17.swift in Sources */,
+				62DFF6E328CF660B00D1B8F7 /* level20.swift in Sources */,
+				62DF669229016904002F2675 /* EndGameLvl25.swift in Sources */,
+				62BC6D02289E674C0061DD1A /* GameViewController.swift in Sources */,
+				62B36F7928F581E200792F0C /* EndGameLvl22.swift in Sources */,
+				625124B728A1A10C0096266F /* SwiftUIView.swift in Sources */,
+				62AE514028A3BE8E00765873 /* level9.swift in Sources */,
+				625124D528A2B0E50096266F /* LevelComplete.swift in Sources */,
+				6298C90528C12DF4009DABCA /* level17.swift in Sources */,
+				62DF6682290019A7002F2675 /* level24.swift in Sources */,
+				62DFF6E128CF65FA00D1B8F7 /* level19.swift in Sources */,
+				62DFF6ED28CFA49300D1B8F7 /* EndGameLvl21.swift in Sources */,
+				62BC6CFA289E674C0061DD1A /* AppDelegate.swift in Sources */,
+				625124C328A244240096266F /* level2.swift in Sources */,
+				625124D128A2AD7A0096266F /* EndGame.swift in Sources */,
+				62AE514528A4F7E300765873 /* EndGameLvl2.swift in Sources */,
+				62AE514D28A4F92C00765873 /* EndGameLvl5.swift in Sources */,
+				6298C8E528AD834C009DABCA /* level13.swift in Sources */,
+				62AE514F28A4F93B00765873 /* EndGameLvl6.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BC6D0B289E67520061DD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BC6D14289E67520061DD1A /* PacManTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BC6D15289E67520061DD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BC6D20289E67520061DD1A /* PacManUITestsLaunchTests.swift in Sources */,
+				62BC6D1E289E67520061DD1A /* PacManUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62BC6D11289E67520061DD1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BC6CF5289E674C0061DD1A /* Maze Ball */;
+			targetProxy = 62BC6D10289E67520061DD1A /* PBXContainerItemProxy */;
+		};
+		62BC6D1B289E67520061DD1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BC6CF5289E674C0061DD1A /* Maze Ball */;
+			targetProxy = 62BC6D1A289E67520061DD1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62BC6D03289E674C0061DD1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6298C8D528A9235C009DABCA /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62BC6D08289E67510061DD1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6298C8D428A9235B009DABCA /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62BC6D21289E67520061DD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62BC6D22289E67520061DD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62BC6D24289E67520061DD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VXJJH2VH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = AlyaskaStudio.Mazeball;
+				PRODUCT_NAME = "Maze Ball";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62BC6D25289E67520061DD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VXJJH2VH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = AlyaskaStudio.Mazeball;
+				PRODUCT_NAME = "Maze Ball";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62BC6D27289E67520061DD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VXJJH2VH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlyaskaStudio.PacManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maze Ball.app/Maze Ball";
+			};
+			name = Debug;
+		};
+		62BC6D28289E67520061DD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VXJJH2VH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlyaskaStudio.PacManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maze Ball.app/Maze Ball";
+			};
+			name = Release;
+		};
+		62BC6D2A289E67520061DD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VXJJH2VH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlyaskaStudio.PacManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PacMan;
+			};
+			name = Debug;
+		};
+		62BC6D2B289E67520061DD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VXJJH2VH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlyaskaStudio.PacManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PacMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62BC6CF1289E674C0061DD1A /* Build configuration list for PBXProject "Maze Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BC6D21289E67520061DD1A /* Debug */,
+				62BC6D22289E67520061DD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BC6D23289E67520061DD1A /* Build configuration list for PBXNativeTarget "Maze Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BC6D24289E67520061DD1A /* Debug */,
+				62BC6D25289E67520061DD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BC6D26289E67520061DD1A /* Build configuration list for PBXNativeTarget "Maze BallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BC6D27289E67520061DD1A /* Debug */,
+				62BC6D28289E67520061DD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BC6D29289E67520061DD1A /* Build configuration list for PBXNativeTarget "Maze BallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BC6D2A289E67520061DD1A /* Debug */,
+				62BC6D2B289E67520061DD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62BC6CEE289E674C0061DD1A /* Project object */;
+}
